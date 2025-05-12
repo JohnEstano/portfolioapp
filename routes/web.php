@@ -7,6 +7,11 @@ Route::get('dashboard', function () {
     return Inertia::render('dashboard');
 })->name('dashboard');
 
+
+Route::get('contact', function() {
+    return Inertia::render('contact');
+})->name('contact');
+
 Route::get('blogs', function() {
     return Inertia::render('blogs');
 })->name('blogs');
