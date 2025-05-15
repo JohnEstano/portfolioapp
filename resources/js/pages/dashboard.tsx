@@ -46,6 +46,7 @@ export default function Home() {
       <section className="w-full min-h-[100dvh] bg-muted/50 rounded-4xl px-4 sm:px-6 pt-10 sm:pt-20 pb-12 text-center flex items-center justify-center">
         <div className="w-full max-w-2xl mx-auto space-y-6">
           <div className="flex items-center justify-center gap-3">
+            <h1>lobot</h1>
             <ConfettiButton>
               <img
                 src="/storage/images/profilebird.png"
